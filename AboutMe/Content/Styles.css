@@ -1,36 +1,37 @@
-﻿body {
+﻿
+about-body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
-.container {
+.about-container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0 ,0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
 }
 
-.intro {
+.about-intro {
     text-align: center;
 }
 
-.info-box {
+.about-info-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
-.info-row {
+.about-info-row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.info-column {
+.about-info-column {
     flex: 1;
     min-width: 300px;
     margin: 10px;
@@ -40,11 +41,11 @@
     background-color: #fafafa;
 }
 
-.info-column p {
-    margin: 10px 0
+.about-info-column p {
+    margin: 10px 0;
 }
 
-.info-item {
+.about-info-item {
     margin: 10px 0;
     padding: 10px;
     border: 1px solid #ccc;
@@ -52,7 +53,7 @@
     background-color: #fafafa;
 }
 
-.info-item-large {
+.about-info-item-large {
     margin: 20px 0;
     padding: 20px;
     border: 1px solid #ccc;
@@ -60,9 +61,24 @@
     background-color: #fafafa;
 }
 
-.info-detail {
+.about-info-detail {
     margin: 10px 0;
     padding-left: 54px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skill-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+    width: 100%;
 }
 
 /* メディアクエリ */
@@ -71,15 +87,19 @@
         width: 100%;
     }
 
-    .info-box {
+    .about-info-box {
         flex-direction: column;
     }
 
-    .info-row {
+    .about-info-row {
         flex-direction: column;
     }
 
-    .info-column {
+    .about-info-column {
         min-width: 100%;
+    }
+
+    .skill-item {
+        width: 100%;
     }
 }

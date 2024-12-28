@@ -7,7 +7,6 @@
 
     Function About() As ActionResult
         ViewData("Message") = "自己紹介ページ"
-
         Return View()
     End Function
 
