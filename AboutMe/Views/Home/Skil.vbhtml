@@ -13,16 +13,50 @@ End Code
     <h2>@ViewData("Message")</h2>
     <p>経験月数は累計で、2024年12月現在の内容です。</p>
 
-    <div class="skills-container">
-        <div class="skill-item">
-            <p><strong>Excel VBA</strong>: 24ヶ月</p>
-        </div>
-        <div class="skill-item">
-            <p><strong>Access VBA</strong>: 24ヶ月</p>
-        </div>
-        <div class="skill-item">
-            <p><strong>VB.NET</strong>: 3ヶ月</p>
-        </div>
-    </div>
+
+    <table class="skill-table" border="1">
+        <tbody>
+            <tr>
+                <th class="skill-caption">言語</th>
+                <td class="skill-caption"></td>
+            </tr>
+            <tr>
+                <th class="skill-th"> <p><strong>Excel VBA</strong>:</p></th>
+                <td class="skill-td">24ヶ月</td>
+            </tr>
+            <tr>
+                <th class="skill-th"> <p><strong>Access VBA</strong>:</p></th>
+                <td class="skill-td">24ヶ月</td>
+            </tr>
+            <tr>
+                <th class="skill-th"> <p><strong>VB.NET</strong>:</p></th>
+                <td class="skill-td">3ヶ月</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="skill-table" border="1">
+        <tbody>
+            <tr>
+                <th class="skill-caption">DB</th>
+                <td class="skill-caption"></td>
+            </tr>
+            <tr>
+                <th class="skill-th"><p><strong>PostgreSQL</strong>:</p></th>
+                <td class="skill-td">3ヶ月</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="skill-table" border="1">
+        <tbody>
+            <tr>
+                <th class="skill-caption">OS</th>
+                <td class="skill-caption"></td>
+            </tr>
+            <tr>
+                <th class="skill-th"><p><strong>Windows</strong>:</p></th>
+                <td class="skill-td">24ヶ月</td>
+            </tr>
+        </tbody>
+    </table>
 </main>
 

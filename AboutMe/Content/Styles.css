@@ -6,12 +6,39 @@ about-body {
     padding: 0;
 }
 
-.about-container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
+.about-table {
+    width: 900px;
+    height: auto;
+    border-collapse: collapse;
+    border-top: solid 2px #666;
+    border-bottom: solid 2px #666;
+    margin-left: 50px;
+}
+
+.about-th {
+    width: 160px;
+    color: #fff;
+    background-color: #666;
+    border-bottom: solid 1px #eee;
+    border-top: solid 1px #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.about-td {
+    width: 760px;
+    border-bottom: solid 1px #333;
+    border-top: solid 1px #333;
+    border-left: solid 1px #333;
+    border-right: solid 1px #333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .about-intro {
@@ -80,6 +107,59 @@ about-body {
     background-color: #fafafa;
     width: 100%;
 }
+
+.skill-caption {
+    width: 220px;
+    color: #fff;
+    background-color: #000000;
+    border-bottom: solid 1px #eee;
+    border-top: solid 1px #eee;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    word-break: break-all;
+    font-weight: normal;
+}
+
+.skill-table {
+    width: 900px;
+    height: auto;
+    border-collapse:collapse;
+    border-top: solid 2px #666;
+    border-bottom: solid 2px #666;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.skill-th {
+    width: 110px;
+    color: #fff;
+    background-color: #666;
+    border-bottom: solid 1px #eee;
+    border-top: solid 1px #eee;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    word-break: break-all;
+    font-weight: normal;
+}
+
+.skill-td {
+    width: 110px;
+    border-bottom: solid 1px #333;
+    border-top: solid 1px #333;
+    border-left: solid 1px #333;
+    border-right: solid 1px #333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 /* メディアクエリ */
 @media (max-width: 768px) {
