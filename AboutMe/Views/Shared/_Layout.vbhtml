@@ -30,7 +30,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - ●●●</p>
+            <p>&copy; @DateTime.Now.Year - sato-ryo_test_project</p>
         </footer>
     </div>
 
