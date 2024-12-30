@@ -1,4 +1,6 @@
-﻿Public Class HomeController
+﻿Imports System.Web.Mvc
+Imports AboutMe.aboutMe
+Public Class HomeController
     Inherits System.Web.Mvc.Controller
 
     Function Index() As ActionResult
@@ -24,5 +26,15 @@
         ViewData("Message") = "お問い合わせページ"
 
         Return View()
+    End Function
+
+    <HttpPost>
+    Function Contact(ByVal model As ContactFormModel) As ActionResult
+        If ModelState.IsValid Then
+            ' ここでデータ処理を行う
+            ViewData("Message") = "お問い合わせありがとうございます"
+            Return RedirectToAction("Contact")
+        End If
+        Return View(model)
     End Function
 End Class
