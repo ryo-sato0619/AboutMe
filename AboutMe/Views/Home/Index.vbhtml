@@ -11,13 +11,11 @@ End Code
 
     <div class="row">
         <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
+            <h2 id="gettingStartedTitle">GitHub</h2>
             <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
+                私のGitHubページです。VB.NETを中心に勉強しているコードをアップしています。
             </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            <p><a class="btn btn-outline-dark" href="https://github.com/ryo-sato0619">GitHub &raquo;</a></p>
         </section>
         <section class="col-md-4" aria-labelledby="librariesTitle">
             <h2 id="librariesTitle">Get more libraries</h2>

@@ -1,5 +1,5 @@
 ﻿contact-table {
-    width: 200%;
+    width: 100%;
     border-collapse: collapse;
     margin: 16px 0;
 }
@@ -18,8 +18,8 @@
 }
 
 .content-textarea {
-    width:400%;
-    height: 200%;
+    width:600px;
+    height: 200px;
 }
 
 .contact-title-control {
