@@ -1,4 +1,5 @@
-﻿Imports System.Web.Mvc
+﻿Imports System.IO
+Imports System.Web.Mvc
 Imports AboutMe.aboutMe
 Public Class HomeController
     Inherits System.Web.Mvc.Controller
@@ -31,7 +32,11 @@ Public Class HomeController
     <HttpPost>
     Function Contact(ByVal model As ContactFormModel) As ActionResult
         If ModelState.IsValid Then
-            ' ここでデータ処理を行う
+            ' ここでデータ処理を行う（ファイルに）保存
+            Dim filePath As String = Server.MapPath("~/App_Data/ContactForms.txt")
+            Using writer As New StreamWriter(filePath, True)
+                writer.WriteLine($"Name: {model.Name}, Email: {model.Email}, Message: {model.Message}")
+            End Using
             ViewData("Message") = "お問い合わせありがとうございます"
             Return RedirectToAction("Contact")
         End If

@@ -1,0 +1,78 @@
+﻿contact-table {
+    width: 200%;
+    border-collapse: collapse;
+    margin: 16px 0;
+}
+
+.contact-table th,
+.contact-table td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.contact-table th {
+    width: 100px;
+    text-align: right;
+    padding-right: 16px;
+}
+
+.content-textarea {
+    width:400%;
+    height: 200%;
+}
+
+.contact-title-control {
+    width: 100px;
+    padding: 8px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.contact-control {
+    flex: 1;
+    padding: 8px;
+    margin-left: 8px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    width: 200%;
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 12px;
+    margin-top: 16px;
+}
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .about-info-box {
+        flex-direction: column;
+    }
+
+    .about-info-row {
+        flex-direction: column;
+    }
+
+    .about-info-column {
+        min-width: 100%;
+    }
+
+    .skill-item {
+        width: 100%;
+    }
+}
