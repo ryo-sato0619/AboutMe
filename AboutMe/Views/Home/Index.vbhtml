@@ -18,8 +18,8 @@ End Code
             <p><a class="btn btn-outline-dark" href="https://github.com/ryo-sato0619">GitHub &raquo;</a></p>
         </section>
         <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+            <h2 id="librariesTitle">お勧め書籍</h2>
+            <p>参考になった書籍の紹介になります</p>
             <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
         </section>
         <section class="col-md-4" aria-labelledby="hostingTitle">
