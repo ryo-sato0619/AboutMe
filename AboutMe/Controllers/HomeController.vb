@@ -1,8 +1,11 @@
 ﻿Imports System.IO
 Imports System.Web.Mvc
 Imports AboutMe.aboutMe
+Imports System.Net
+Imports System.Net.Mail
 Public Class HomeController
     Inherits System.Web.Mvc.Controller
+
 
     Function Index() As ActionResult
         Return View()
@@ -42,4 +45,5 @@ Public Class HomeController
         End If
         Return View(model)
     End Function
+
 End Class
