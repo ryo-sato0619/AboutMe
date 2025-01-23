@@ -20,19 +20,19 @@ End Code
     <p>「名前」は全角で記入してください</p>
     <p>「E-mail」の入力が無い場合にはご返答が出来かねてしまいます</p>
 
-    @Using Html.BeginForm("Contact", "Home", FormMethod.Post)
+    @Using Html.BeginForm("SubmitContact", "Contact", FormMethod.Post)
     @<table class="contact-table">
     <tr>
-        <th>@Html.LabelFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.Name, "名前", New With {.Class = "contact-title-control"})</th>
-        <td>@Html.TextBoxFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.Name, New With {.class = "contact-control", .required = "required"})</td>
+        <th>@Html.LabelFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.user_name, "名前", New With {.Class = "contact-title-control"})</th>
+        <td>@Html.TextBoxFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.user_name, New With {.class = "contact-control", .required = "required"})</td>
     </tr>
     <tr>
-        <th>@Html.LabelFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.Email, "E-mail", New With {.Class = "contact-title-control"})</th>
-        <td>@Html.TextBoxFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.Email, New With {.class = "contact-control", .required = "required", .type = "email"})</td>
+        <th>@Html.LabelFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.email_address, "E-mail", New With {.Class = "contact-title-control"})</th>
+        <td>@Html.TextBoxFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.email_address, New With {.class = "contact-control", .required = "required", .type = "email"})</td>
     </tr>
     <tr>
-        <th>@Html.LabelFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.Message, "内容", New With {.Class = "contact-title-control"})</th>
-        <td>@Html.TextAreaFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.Message, New With {.class = "contact-control content-textarea", .required = "required"})</td>
+        <th>@Html.LabelFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.inquiry_details, "内容", New With {.Class = "contact-title-control"})</th>
+        <td>@Html.TextAreaFor(Function(model As AboutMe.aboutMe.ContactFormModel) model.inquiry_details, New With {.class = "contact-control content-textarea", .required = "required"})</td>
     </tr>
     <tr>
         <td colspan="2">
