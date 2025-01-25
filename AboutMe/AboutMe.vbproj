@@ -296,6 +296,7 @@
     <Content Include="Scripts\jquery-3.7.0.min.map" />
     <Content Include="Views\Home\Certification.vbhtml" />
     <Content Include="Views\Home\Skil.vbhtml" />
+    <Content Include="Views\Home\BookInfo.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
