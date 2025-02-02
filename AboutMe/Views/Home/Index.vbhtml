@@ -20,7 +20,7 @@ End Code
         <section class="col-md-4" aria-labelledby="librariesTitle">
             <h2 id="librariesTitle">お勧め書籍</h2>
             <p>参考になった書籍の紹介になります<br>エンタメ要素の強い初学者向けが中心になっています。</p>
-            <p><a class="btn btn-outline-dark" href="https://ryo-sato0619.github.io/BooksInfo/">Learn more &raquo;</a></p>
+            <p><a class="btn btn-outline-dark" href="https://mybooksinfo.netlify.app/">Learn more &raquo;</a></p>
         </section>
         <section class="col-md-4" aria-labelledby="hostingTitle">
             <h2 id="hostingTitle">●●</h2>
